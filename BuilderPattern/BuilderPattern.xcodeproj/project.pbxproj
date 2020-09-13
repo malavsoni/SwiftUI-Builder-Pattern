@@ -13,6 +13,8 @@
 		B6CDE9B7250E205A00105D6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CDE9A2250E205800105D6E /* ContentView.swift */; };
 		B6CDE9B8250E205A00105D6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6CDE9A3250E205A00105D6E /* Assets.xcassets */; };
 		B6CDE9B9250E205A00105D6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6CDE9A3250E205A00105D6E /* Assets.xcassets */; };
+		B6CDE9C7250E412900105D6E /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CDE9C6250E412900105D6E /* CircularProgressView.swift */; };
+		B6CDE9CD250E4A7500105D6E /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CDE9CC250E4A7500105D6E /* extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		B6CDE9B2250E205A00105D6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6CDE9B3250E205A00105D6E /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		B6CDE9C2250E206A00105D6E /* BuilderPattern.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BuilderPattern.entitlements; sourceTree = "<group>"; };
+		B6CDE9C6250E412900105D6E /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		B6CDE9CC250E4A7500105D6E /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +63,10 @@
 		B6CDE9A0250E205800105D6E /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				B6CDE9CB250E4A6000105D6E /* Utility */,
+				B6CDE9C9250E4A3700105D6E /* View */,
+				B6CDE9C8250E4A2E00105D6E /* ViewModel */,
 				B6CDE9A1250E205800105D6E /* BuilderPatternApp.swift */,
-				B6CDE9A2250E205800105D6E /* ContentView.swift */,
 				B6CDE9A3250E205A00105D6E /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -90,6 +96,46 @@
 				B6CDE9B3250E205A00105D6E /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		B6CDE9C3250E292500105D6E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B6CDE9C6250E412900105D6E /* CircularProgressView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B6CDE9C8250E4A2E00105D6E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B6CDE9C9250E4A3700105D6E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B6CDE9CA250E4A4A00105D6E /* Screens */,
+				B6CDE9C3250E292500105D6E /* Components */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B6CDE9CA250E4A4A00105D6E /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				B6CDE9A2250E205800105D6E /* ContentView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		B6CDE9CB250E4A6000105D6E /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				B6CDE9CC250E4A7500105D6E /* extension.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,7 +236,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6CDE9B6250E205A00105D6E /* ContentView.swift in Sources */,
+				B6CDE9C7250E412900105D6E /* CircularProgressView.swift in Sources */,
 				B6CDE9B4250E205A00105D6E /* BuilderPatternApp.swift in Sources */,
+				B6CDE9CD250E4A7500105D6E /* extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
