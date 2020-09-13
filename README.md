@@ -4,4 +4,4 @@
   - XCode 12 Beta
   - SWIFTUI ( New Reactive Framework By Apple)
   - MVVM Architecture
-  - Custom Component with Builder Pattern.
+  - **Custom Component with Builder Pattern.**
